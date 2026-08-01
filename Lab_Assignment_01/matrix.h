@@ -10,6 +10,7 @@ public:
     std::vector<std::vector<int>> mat;
     matrix(int, int);
     void display();
-    void populate_mat(FILE *&fp);
+    void populate_mat(FILE *fp);
+    void print_to_file(FILE *);
 };
 #endif
