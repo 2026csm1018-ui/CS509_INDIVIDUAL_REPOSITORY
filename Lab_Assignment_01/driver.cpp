@@ -1,6 +1,6 @@
 #include <iostream>
 #include "matrix.h"
-#include "gem_simple.h"
+#include "gemm_simple.h"
 using namespace std;
 
 int main(int argc, char **argv)

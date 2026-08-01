@@ -1,5 +1,5 @@
-#ifndef GEM_SIMPLE_H
-#define GEM_SIMPLE_H
+#ifndef GEMM_SIMPLE_H
+#define GEMM_SIMPLE_H
 #include <iostream>
 #include <chrono>
 #include "matrix.h"
