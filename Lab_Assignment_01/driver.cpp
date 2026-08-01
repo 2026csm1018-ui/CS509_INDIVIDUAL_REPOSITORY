@@ -8,6 +8,11 @@ int main(int argc, char **argv)
 
     int dim[3];
     FILE *input_fp = fopen(argv[1], "r");
+    if(input_fp==NULL){
+       cout<<"[ERROR] Could'nt open the file"<<endl;
+       return 1;
+    }
+
     fscanf(input_fp, "%d %d %d", &dim[0], &dim[1], &dim[2]);
     matrix m1(dim[0], dim[1]), m2(dim[1], dim[2]);
     m1.populate_mat(input_fp);
@@ -21,9 +26,10 @@ int main(int argc, char **argv)
        cout<<"[ERROR] Could'nt open the file"<<endl;
        return 1;
     }
-    fprintf(output_fp,"Alogrithm: %s\n",argv[1]);
+    fprintf(output_fp,"Alogrithm: %s\n",argv[2]);
     fprintf(output_fp,"Resultant Matrix:\n");
     m3.print_to_file(output_fp);
     fprintf(output_fp,"Execution Time: %lld microseconds",exec_time);
+    fclose(output_fp);
     
 }

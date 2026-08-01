@@ -44,7 +44,7 @@ void matrix::print_to_file(FILE *fp)
 void matrix::populate_mat(FILE *fp)
 {
     int buffer_size = rows * cols;
-    int temp[buffer_size];
+    vector<int> temp(buffer_size);
     int i = 0;
     while (i < buffer_size)
     {

@@ -1,0 +1,10 @@
+Alogrithm: SIMPLE_MULTIPLICATION
+Resultant Matrix:
+7 10 
+15 22 
+Execution Time: 0 microseconds
+Alogrithm: SIMPLE_MULTIPLICATION
+Resultant Matrix:
+7 10 
+15 22 
+Execution Time: 0 microseconds
