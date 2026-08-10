@@ -6,21 +6,22 @@ Each lab assignment is maintained in a separate directory with its own source co
 
 ## Repository Structure
 
-CS509_INDIVIDUAL_REPOSITORY/
-│
-├── run.sh
-├── README.md
-│
-├── Lab_Assignment_01/
-│   ├── README.md
-│   └── ...
-│
-├── Lab_Assignment_02/
-│   ├── README.md
-│   └── ...
-│
-└── ...
+## Repository Structure
 
+    CS509_INDIVIDUAL_REPOSITORY/
+    │
+    ├── run.sh
+    ├── README.md
+    │
+    ├── Lab_Assignment_01/
+    │   ├── README.md
+    │   └── ...
+    │
+    ├── Lab_Assignment_02/
+    │   ├── README.md
+    │   └── ...
+    │
+    └── ...
 ## Running the Assignments
 
 A common run.sh script is provided in the root directory to launch the required lab assignment.
