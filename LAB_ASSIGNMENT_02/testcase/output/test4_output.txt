@@ -1,0 +1,17 @@
+Input File: test4.txt
+Vertices: 6
+Edges: 8
+Source: 2
+
+Algorithm: BELLMAN_FORD
+Source: 2
+Execution Time: 1 microseconds
+Negative Weight Cycle: NO
+Shortest Distances:
+0 14
+1 16
+2 0
+3 2
+4 6
+5 6
+
