@@ -6,7 +6,6 @@ Each lab assignment is maintained in a separate directory with its own source co
 
 ## Repository Structure
 
-```text
 CS509_INDIVIDUAL_REPOSITORY/
 │
 ├── run.sh
@@ -59,6 +58,6 @@ For compilation requirements and instructions specific to an assignment, refer t
 
 ## Author
 
-**Shahid Alam**
+Shahid Alam
 
-***Indian Institute of Technology, Ropar***
+Indian Institute of Technology, Ropar
