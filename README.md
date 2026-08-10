@@ -6,20 +6,19 @@ Each lab assignment is maintained in a separate directory with its own source co
 
 ## Repository Structure
 
+## Repository Structure
+
+```text
 CS509_INDIVIDUAL_REPOSITORY/
 │
 ├── run.sh
 ├── README.md
 │
-├── LAB_ASSIGNMENT_01/
+├── Lab_Assignment_01/
 │   ├── README.md
 │   └── ...
 │
-├── LAB_ASSIGNMENT_02/
-│   ├── README.md
-│   └── ...
-│
-├── LAB_ASSIGNMENT_03/
+├── Lab_Assignment_02/
 │   ├── README.md
 │   └── ...
 │
