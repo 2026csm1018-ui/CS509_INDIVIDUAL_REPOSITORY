@@ -6,8 +6,6 @@ Each lab assignment is maintained in a separate directory with its own source co
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 CS509_INDIVIDUAL_REPOSITORY/
 │
@@ -62,4 +60,5 @@ For compilation requirements and instructions specific to an assignment, refer t
 ## Author
 
 **Shahid Alam**
+
 ***Indian Institute of Technology, Ropar***
