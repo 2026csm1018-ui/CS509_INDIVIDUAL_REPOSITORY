@@ -1,0 +1,21 @@
+Input File: bf_10.txt
+Vertices: 10
+Edges: 40
+Source: 0
+
+Algorithm: BELLMAN_FORD
+Source: 0
+Execution Time: 29 microseconds
+Negative Weight Cycle: NO
+Shortest Distances:
+0 0
+1 13
+2 33
+3 3
+4 4
+5 8
+6 17
+7 11
+8 7
+9 4
+
