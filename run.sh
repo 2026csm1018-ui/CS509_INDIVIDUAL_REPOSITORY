@@ -5,7 +5,8 @@ echo "       CS509 LAB ASSIGNMENTS"
 echo "======================================"
 echo "1. Lab Assignment 01"
 echo "2. Lab Assignment 02"
-echo "3. Exit"
+echo "3. Lab Assignment 03"
+echo "4. Exit"
 echo "======================================"
 
 read -p "Enter your choice : " choice
@@ -25,8 +26,20 @@ case $choice in
             ./run
         )
         ;;
-
+  
     3)
+        (
+            cd Lab_Assignment_03
+            ./run
+        )
+        ;;
+  
+  
+  
+  
+  
+  
+    4)
         echo "Exiting..."
         exit 0
         ;;
